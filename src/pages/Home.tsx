@@ -2,8 +2,6 @@ import useGetRoot from "../api/useGetRoot";
 
 const Home = () => {
   const { data, isLoading } = useGetRoot();
-  
-  console.log({ data });
 
   return (
     <div>
